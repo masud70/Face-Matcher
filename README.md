@@ -1,8 +1,23 @@
 # Face Matcher
 
-This app is developed using React and faceapi.js. The faceapi.js library is built on top of tensorflow.js and it makes it easier to detect, analyze, and compare faces from an image. To improve the accuracy of the detection, the detection is made after multiple expression and captured such as happy, angry, neutral, surprized, sad, etc. It also contains gender detection using which additional check can be performed to improve the accuracy of the results.
+This application is crafted with React and leverages the faceapi.js library, which, in turn, is constructed upon tensorflow.js. This library simplifies the process of detecting, analyzing, and comparing faces within an image. To enhance detection accuracy, multiple expressions, including happy, angry, neutral, surprised, sad, etc., are captured during the analysis. Additionally, the application incorporates gender detection, providing an extra layer for refining result accuracy.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Run Locally
+
+To run this project on your local machine, follow the steps below:
+
+- Clone this repository on your machine using the command 
+    ```bash
+        git clone https://github.com/masud70/Face-Matcher.git
+    ```
+- Go to the project folder
+- Now install all the dependencies running command
+    ```bash
+        npm install
+    ```
+- Finally, run any command described below.
 
 ## Available Scripts
 
@@ -14,7 +29,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Lint errors are visible in the console.
 
 ### `npm test`
 
@@ -30,5 +45,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run build` fails to minify
